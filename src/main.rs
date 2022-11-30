@@ -1,5 +1,4 @@
 use std::io::Read;
-
 fn main() {
     let arguments: Vec<String> = std::env::args().collect();
     let path = &arguments[1];
